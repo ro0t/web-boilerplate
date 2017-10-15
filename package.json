@@ -10,6 +10,7 @@
   "author": "Adam N. Viðarsson",
   "license": "ISC",
   "devDependencies": {
+    "copy-webpack-plugin": "^4.1.1",
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^3.0.1",
     "handlebars": "^4.0.10",

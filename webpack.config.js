@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const settings = {
     title: 'Adams Webpack Boilerplate!',
     filename: 'index.html',
@@ -29,5 +30,5 @@ module.exports = {
             }
         ]
     },
-    plugins: [new HtmlWebpackPlugin(settings)]
+    plugins: [new HtmlWebpackPlugin(settings), new CopyWebpackPlugin([{ from: 'assets/', to: 'assets' }])]
 };
