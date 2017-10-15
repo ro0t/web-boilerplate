@@ -1,10 +1,10 @@
 {
-  "name": "Webpack Boilerplate",
+  "name": "adams-webpack-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate for webpack projects",
   "main": "src/bootstrap.js",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors",
+    "start": "webpack && webpack-dev-server --progress --colors --content-base=dist",
     "build": "webpack"
   },
   "author": "Adam N. Viðarsson",
@@ -13,6 +13,8 @@
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^3.0.1",
     "handlebars": "^4.0.10",
+    "handlebars-loader": "^1.6.0",
+    "html-webpack-plugin": "^2.30.1",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",

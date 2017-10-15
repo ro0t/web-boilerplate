@@ -1,4 +1,11 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const settings = {
+    title: 'Adams Webpack Boilerplate!',
+    filename: 'index.html',
+    template: 'src/index.hbs',
+    showErrors: true
+};
 
 module.exports = {
     entry: ['./src/bootstrap.js','./styles/app.scss'],
@@ -15,7 +22,12 @@ module.exports = {
             {
                 test: /\.scss$/,
                 loaders: ['style-loader', 'css-loader', 'sass-loader']
+            },
+            {
+                test: /\.hbs$/,
+                loader: 'handlebars-loader'
             }
         ]
-    }
+    },
+    plugins: [new HtmlWebpackPlugin(settings)]
 };

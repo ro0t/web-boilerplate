@@ -13,8 +13,8 @@ A complete start for any project that will be built with Webpack. Made by me and
 
 ### How to run?
 ```
-npm install
-npm run
+yarn # or: npm install
+npm start
 ```
 
 Point your browser to http://localhost:8080
