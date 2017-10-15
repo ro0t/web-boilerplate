@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const settings = {
-    title: 'Adams Webpack Boilerplate!',
+    title: 'dam N. Viðarsson 🤓',
     filename: 'index.html',
     template: 'src/index.hbs',
     showErrors: true

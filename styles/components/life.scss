@@ -1,0 +1,23 @@
+#life {
+    .languages {
+        margin-left: $gutter * 2;
+    }
+
+    .skillsets{
+        .skill{
+            margin-left: $gutter * 2;
+            margin-bottom: $gutter;
+            padding-bottom: $gutter;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        h5 {
+            margin:0;
+        }
+
+        p {
+            margin: 0;
+            margin-top: $gutter;
+        }
+    }
+}

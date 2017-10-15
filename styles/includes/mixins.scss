@@ -12,8 +12,20 @@
 
 @mixin clearfix {
     &:after {
-        clear: both;
+        content: "";
         display: table;
-        height: 0;
-    }
+        clear: both;
+      }
+}
+
+@mixin transition($trans: $transition) {
+    -webkit-transition: $trans;
+    -moz-transition: $trans;
+    transition: $trans;
+}
+
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    transform: $transform;
 }

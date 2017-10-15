@@ -1,0 +1,33 @@
+header {
+    width: 100%;
+    margin-bottom: $large-gutter;
+    position: relative;
+
+    h1 {
+        font-weight: 100;
+        margin-bottom: 0;
+    }
+
+    h4 {
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 5px;
+
+        a{
+            color: $red;
+            border-bottom: 1px dotted $red;
+            text-decoration: none;
+        }
+    }
+
+    &:after {
+        content: 'cv';
+        font-weight: 400;
+        position: absolute;
+        font-size: 360pt;
+        color:#000;
+        top: -240pt;
+        right: -25pt;
+        opacity: 0.02;
+    }
+}

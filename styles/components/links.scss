@@ -1,0 +1,22 @@
+.links {
+    margin-left: $gutter * 3;
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: $black;
+        margin-bottom: $gutter;
+        line-height: 28px;
+        position: relative;
+
+        img {
+            margin-right: $gutter;
+            position: relative;
+            top: 8px;
+        }
+
+        &:hover {
+            color: $red;
+        }
+    }
+}

@@ -1,7 +1,10 @@
-$red: #ff0000;
+$red: #ee3434;
 $white: #fff;
 $black: #000;
 
 $gutter: 15px;
+$large-gutter: $gutter * 5;
+
 $columns: 24;
 $borderRadius: 3px;
+$transition: all .2s ease-in-out;
